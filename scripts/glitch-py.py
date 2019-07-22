@@ -16,7 +16,7 @@ def main(argv):
         elif opt == "-t":
             token = arg.strip()
 
-    print message, pull, repo, token
+    # print message, pull, repo, token
 
     # First create a Github instance:
     g = Github(token)

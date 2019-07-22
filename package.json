@@ -9,6 +9,9 @@
     "Node.js",
     "application"
   ],
+  "scripts": {
+    "start": "bin/hubot -a gitter2 -n stable"
+  },
   "dependencies": {
     "cloudinary": "^1.2.4",
     "coffee-script": "1.10.0",
@@ -35,7 +38,7 @@
     "sprintf-js": "^1.0.3"
   },
   "engines": {
-    "node": "4.1",
+    "node": ">= 4.1",
     "npm": ">= 1.1.x"
   }
 }
